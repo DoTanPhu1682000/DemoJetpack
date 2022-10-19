@@ -16,13 +16,18 @@
         android:theme="@style/Theme.DemoJetpack"
         tools:targetApi="31">
         <activity
-            android:name=".StudentRoomActivity"
+            android:name=".TaskActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentRoomActivity"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".MainActivity"
